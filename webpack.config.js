@@ -13,7 +13,7 @@ module.exports = {
       directory: path.join(__dirname, 'dist'),
     },
     port: 8080,
-    hot: true
+    hot: true,
   },
 
   output: {
@@ -21,7 +21,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  
+
   module: {
     rules: [
       {
